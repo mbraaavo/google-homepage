@@ -6,3 +6,9 @@
 .sign-in {
     background-color: #33f;
 }
+
+.nav-container {
+   height: 10%; 
+   display: flex;
+
+}
