@@ -1,49 +1,79 @@
 .material-icons-outlined {
+    vertical-align: middle;
     font-family: 'Material Icons';
     font-size: 24px;
 }
 
-h5{
-    margin: 10px;
-    width: 5%;
-    display: inline;
+body {
+    margin: 0;
+    font-family: arial, sans-serif;
 }
 
+
 h4{
+    font-weight: 100;
     margin: 10px;
     width: 5%;
     display: inline;
+    font-size: 14px;
 }
 .container{
     height: auto;
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     height: 100%;
     }
 
-.sign-in {
-    background-color: #33f;
+#sign-in {
+    color: white;
+    border-radius: 2px;
+    border: none;
+    height: 28px;
+    background-color: #4285F4;
+    margin-right: 5px;
 }
 
 .top {
-    justify-content: space-between;
+    margin: 25px 20px;
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
+    height: 10px;
 }
 
 .left-set {
-    width: 30%;
+    width: 50%;
 
 }
 
 .main-center {
-    display: inline-block;
-    padding: 4rem;
-    flex-shrink: 0;
+    padding: 10% 4rem 4rem;
+    flex-grow: 1;
 }
 
+.image {
+    display: block;
+    margin: .2% auto;
+
+}
+.wrapper {
+    position: relative;
+    display: flex;
+}
+
+.searchbar {
+    margin-top: 20px;
+    margin-left: 42%;
+}
+
+.button{
+    margin-left: 20px;
+}
 .bottoms {
+    color: #70757a;
     display: flex;
     justify-content: space-between;
+    padding: 1rem 1rem .2rem;
+    background-color: #f2f2f2;
 }
