@@ -3,12 +3,47 @@
     font-size: 24px;
 }
 
+h5{
+    margin: 10px;
+    width: 5%;
+    display: inline;
+}
+
+h4{
+    margin: 10px;
+    width: 5%;
+    display: inline;
+}
+.container{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100%;
+    }
+
 .sign-in {
     background-color: #33f;
 }
 
-.nav-container {
-   height: 10%; 
-   display: flex;
+.top {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
 
+.left-set {
+    width: 30%;
+
+}
+
+.main-center {
+    display: inline-block;
+    padding: 4rem;
+    flex-shrink: 0;
+}
+
+.bottoms {
+    display: flex;
+    justify-content: space-between;
 }
